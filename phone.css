@@ -1,0 +1,20 @@
+/*navigation*/
+ #navbar{
+     flex-direction: column;
+ }
+/*home section*/
+#home{
+height: 280px;
+flex-direction: column;
+}
+/*services section*/
+
+#services{
+flex-direction: column;
+}
+#services.box{
+height: 55px; ;
+}
+/*client section*/
+
+/*contact section*/
