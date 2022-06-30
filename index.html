@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best online food service in india | Myonlinemeal.com</title>
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="/src/phone.css">
+</head>
+<style>
+    /*css Reset*/
+    * {
+        font-family: cursive;
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+
+    /*CSS Variable*/
+    :root {
+        --navbar-height: 59px;
+    }
+
+    
+    
+    
+
+    /*Navigation Bar:logo and Image*/
+    #logo {
+        margin: 10px 34px;
+                
+    }
+
+    #logo img {
+        height: 96px;
+        margin: 3px 6px;
+        border-image: round;
+        border-radius: 90px;
+    }
+
+
+    /*Navigation Bar:List Styling*/
+    /*navigation Bar*/
+    #navbar {
+        display: flex;
+        align-items: center;
+        position: absolute;
+            top: 0px;
+        }
+    
+
+    #navbar ul {
+        display: flex;
+    }
+
+    #navbar::before {
+        content: "";
+        background-color: black;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.4;
+    }
+
+    #navbar ul li {
+        list-style: none;
+        font-size: 1.3rem;
+    }
+
+    #navbar ul li a {
+        color: white;
+        display: block;
+        padding: 3px 22px;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+
+    #navbar ul li a:hover {
+        color: black;
+        background-color: white;
+
+    }
+
+    /*Home section*/
+    #home {
+        display: flex;
+        flex-direction: column;
+        padding: 3px 200px;
+        height: 643px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home::before {
+        content: "";
+        position: absolute;
+        background: url(/src/background.jpg);
+        top: 0px;
+        left: 0px;
+        height: 645px;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.89;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #home h1 {
+        color: white;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+    #home p {
+        color: orange;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    /*services section*/
+    #services {
+        margin: 34px;
+        display: flex;
+    }
+
+    #services .box {
+        border: 2px solid brown;
+        padding: 34px;
+        margin: 3px 55px;
+        border-radius: 28px;
+        background-color: rgb(185, 172, 172);
+
+    }
+
+    #services .box img {
+        height: 160px;
+        margin: auto;
+        display: block;
+    }
+
+    #services .box p{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    #services {}
+
+    #services {}
+
+    #services {}
+
+/*client section*/
+
+#client-section{
+    height: 244px;
+    
+}
+
+#clients::before{
+    content: "";
+    position: absolute;
+    background-image: url(/src/food.jpg);
+    width: 100%;
+    height: 41%;
+    z-index: -1;
+    opacity: 0.4;
+    
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.client-item:hover{
+    padding: 34px;
+    cursor: pointer;
+}
+
+#clients img{
+    height: 144px;
+    border-radius: 80px;
+}
+/*contact section*/
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background-size: 1200px;
+    width: 1500px;
+    height: 670px;
+    z-index: -2;
+    opacity: 0.7;
+    background-image:url(/src/last.jpg);
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box form{
+    width: 40%;   
+}
+#contact-box label{
+    font-size: 1.3rem;
+}
+
+
+footer{
+    background:black;
+    color: white;
+    padding: 9px 20px;
+}
+    /*utility class*/
+    .h-primary {
+        font-size: 3.8rem;
+        padding: 12px;
+    }
+    
+
+    .h-secondary {
+        font-size: 2.3rem;
+        padding: 12px;
+    }
+ 
+    .btn {
+        padding: 6px 20px;
+        border: 2px solid white;
+        background-color: brown;
+        color: white;
+        margin: 17px;
+        font-size: 1.5rem;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .center {
+        text-align: center;
+    }
+    .h-primarycenter{
+        font-size: 44px;
+        text-align: center;
+    }
+    #contact-box{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    #contact-box input,
+    #contact-box textarea{
+width: 100%; 
+padding: 0.5 rem;
+
+    }
+</style>
+
+
+
+
+
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="/src/large.png" alt="Myonlinemeal.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">About</a></li>
+            <li class="item"><a href="#">Service</a></li>
+            <li class="item"><a href="#">Contact us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to Myonlinemeal</h1>
+        <p>Order food online from my online meal and get it deliverd in your  area. Food delivery aap and resturent ordering system myonline meal helps customer find in the best resturent ,cafe and many other food items. </p>
+        
+        <button class="btn">Order Now</button>
+
+    </section>
+    <section class="services-container">
+        <h1 class="h-primarycenter">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="/src/OIP (2).jpg" alt="ll">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Order food online from my online meal and get it deliverd in your  area. Food delivery aap and resturent ordering system myonline meal helps customer find in the best resturent ,cafe and many other food items. </p>
+            </div>
+            <div class="box">
+                <img src="/src/OIP (1).jpg" alt="ll">
+                <h2 class="h-secondary center">Food catering</h2>
+                <p class="center">order food online from my online meal and get it deliverd in your  area. Food delivery aap and resturent ordering system myonline meal helps customer find in the best resturent ,cafe and many other food items. </p>
+            </div>
+            <div class="box">
+                <img src="/src/download.jpg" alt="ll">
+                <h2 class="h-secondary center">Fast delivery</h2>
+                <p class="center">order food online from my online meal and get it deliverd in your  area. Food delivery aap and resturent ordering system myonline meal helps customer find in the best resturent ,cafe and many other food items. </p>
+            </div>
+        </div>
+    </section>
+    <section id="clientsection">
+        <h1 class="h-primary center">Follow us</h1>
+<div id="clients">
+    <div class="client-item">
+        <a href="https://www.facebook.com/profile.php?id=100011608239125">
+        <img src="/src/fb (1).jpg" alt="Our client"></a>
+        
+    </div>
+    <div class="client-item">
+        <a href="https://www.instagram.com/vashisthg07/">
+        <img src="/src/insta (1).jpg" alt="Our client"></a>
+        
+    </div>
+    <div class="client-item">
+        <a href="https://twitter.com/Vashisthg52">
+        <img src="/src/twitter.jpg" alt="Our client"></a>
+        
+    </div>
+</div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact US</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="name" id="name" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <label for="no.">phone no.:</label>
+                    <input type="number" name="name" id="name" placeholder="Enter your no.">
+                </div>
+                <div class="form-group">
+                    <label for="message">message for delivery:</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="no.">Submit:</label>
+                    <input type="button" name="name" id="btn" placeholder="button.">
+                </div>
+                
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            copyright &copy; www.myonlinemeal.com.All right reserved|
+        </div>
+    </footer>
+</body>
+
+</html>
